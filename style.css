@@ -1,0 +1,1236 @@
+                                           /* some import */
+
+
+
+                                           
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+button a {
+    font-family: 'Roboto Mono', monospace;;
+    color: black;
+}
+
+body{
+    background-color:rgb(255, 249, 239);
+}
+
+
+
+#navbar{
+ display: flex;
+ justify-content: space-between;
+ height: 60px;
+ background-color: rgb(247, 236, 223);
+ position: sticky;
+ top: 0%;
+ background-attachment: fixed;
+ right: 0%;
+ left: 0%;
+ bottom: 0%;
+
+}
+
+
+
+
+
+#navbar .logo  {
+    width: 27px;
+}
+
+#navbar .logo  a img{
+    height: 40px;
+    width: 36px;
+    margin-left: 90px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+
+#navbar .font ul{
+    display: flex;
+    text-decoration: none;
+    margin-left: 120px;
+
+
+}
+
+#navbar .font ul li{
+   list-style: none;
+   margin-top: 25px;
+ 
+   
+
+}
+
+
+
+#navbar .font ul li a{
+    font-family: 'Roboto Mono', monospace;
+     text-decoration: none;
+     font-weight: 800;
+     padding-left: 30px;
+     font-size: 0.93rem;
+     color: black;
+     font-weight: 400;
+   
+     
+
+}
+
+#navbar .font ul li a:hover{
+    color:rgb(225, 176, 110);
+    
+}
+
+
+.button button{
+    margin-top: 13px;
+    margin-right: 100px;
+    padding: 8px 11px;
+    background-color: #a5916d;
+    border: 0.2px soild black;
+    border-radius: 3px;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+.button button:hover{
+ background-color: #a5916d;
+ padding: 9px 11px;
+  
+ 
+}
+
+
+
+
+
+
+
+.homeimg1 img{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 170px;
+    height: 100px;
+
+   
+   
+}
+
+.homefirstp p{
+     margin-top: 80px;
+    position: absolute;
+    margin-left: 300px;
+    font-family: 'Merienda One', cursive;
+    font-size: 2.6rem;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+.homepara2 p{
+    margin-top:150px;
+    position: absolute;
+    margin-left: 170px;
+    color:#6a5124;
+    font-variant: small-caps;
+    font-family: 'Merienda One', cursive;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.homepara3 p {/* background-color: brown; */
+    margin-top: 220px;
+    margin-left: 240px;
+    position:absolute;
+    font-size: 3rem;
+    height: 140px;
+    background-position: center;
+    font-variant: small-caps;
+    font-family: 'Merienda One', cursive;
+    font-size: 2.9rem;
+    font-weight: 700;
+    
+}
+
+.homeimg2 img{
+    position: absolute;
+    height: 250px;
+    margin-top: 210px;
+    margin-left: 340px;
+
+}
+
+.homebutton1 button{
+    position: absolute;
+    padding:12px 34px;
+    margin-top: 280px;
+    margin-left: 280px;
+    background-color:#000000 ;
+    border-color: rgb(255, 255, 255);
+    font-weight: 700;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+#background {
+    background-image: url(/images/Untitled\ design\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.coffeeheaven   p{
+   padding-left: 250px;
+   padding-top: 170px;
+   font-size: 4rem;
+   font-weight: 700;
+   font-family: 'Merienda One', cursive;  
+}
+
+#heaven p{
+    margin-left: 220px;
+    margin-top: -265px;
+    color: #5b3f24;
+}
+
+.paraofhomeofcoffeeheaven{
+    padding-left: 230px;
+    font-size: 1.250rem;
+    color: rgb(73, 71, 71);
+    font-family: 'Merienda One', cursive;
+}
+
+
+.buttonofcoffeeheaven{
+  margin-left: 420px;
+  margin-top: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.buttonofcoffeeheaven button{
+    padding: 8px 16px;
+    background-color: #a18b61;
+    border-color: #000000;
+   border-radius: 3px;
+    font-weight: 800;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+.buttonofcoffeeheaven button:hover{
+    padding: 7px 16px;
+    background-color: #a18b61;
+    border-color: #000000;
+   border-radius: 3px;
+    font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+                     
+
+
+                          /* about section start from here  */
+
+
+
+                        /* about heading design styling */
+                              
+ #About  img{
+    margin-left: 615px;
+    margin-top: 25px;
+    height: 25px;
+ }
+
+                  /* main about us section sytling  */
+
+ #About  .about1 p{
+  font-size: 2.2rem;
+  font-weight: 800;
+  
+  margin-left: 600px;
+  font-family: 'Merienda One', cursive;
+}
+
+#About  .about2 p{
+    font-size: 2.2rem;
+    font-weight: 800;  
+    margin-top: -50px;
+    margin-left: 705px;
+    color: #907d58;
+    font-family: 'Merienda One', cursive;
+   }
+
+
+
+ .aboutimg1 img{
+    height: 450px;
+    margin: 45px 45px; 
+}  
+
+#aboutsideparah1{
+    height: 480px;  
+}
+
+.abouth11 h1{
+   margin-left: 530px;
+   margin-top: -500px;
+   color: rgb(0, 0, 0);
+   padding-top: 20px; 
+   font-family: 'Merienda One', cursive;
+   font-size: 3.2rem;
+   background-position: center;
+}
+
+
+
+.aboutpara1{
+    margin-left: 570px;
+    margin-top: 13px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Merienda One', cursive;
+   
+}
+
+.aboutpara1:hover{
+    color: black;
+}
+
+.aboutimg2 img{
+   margin-left: 750px;
+   margin-top: -500px;
+}
+
+.button1 button{
+        padding: 8px 16px;
+    background-color: #947f5a;
+    border-color: #000000;
+   border-radius: 3px;
+    font-weight: 800;
+    margin-left: 570px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.button1 button:hover{
+    padding: 7px 16px;
+    background-color: #907d58;
+    border-color: #000000;
+    border-radius: 3px;
+    font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+                      /* our facility start from here  */
+
+
+#ourfacility img{
+    margin-left: 615px;
+    margin-top: 25px;
+    height: 25px;
+}
+
+
+
+#ourfacility p{
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+
+
+.allimgofourfac{
+    display: flex;
+    margin-left: 190px;
+}
+
+
+.allimgofourfac img{
+   
+    margin: 45px 45px;
+    padding-left: 45px;
+}
+
+
+
+.allimgfontfac  {
+    display: flex;
+    margin-left: 280px;
+    
+}
+
+
+
+.allimgfontfac  .font1 p{
+   margin-top: -36px;
+   margin-left: -20px;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 700;
+   
+}
+
+.allimgfontfac  .font2 p{
+    margin-top: -36px;
+    margin-left: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    
+ }
+
+ .allimgfontfac  .font3 p{
+    margin-top: -36px;
+    margin-left: 90px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    
+ }
+
+
+ .allimgfontfac  .font4 p{
+    margin-top: -36px;
+    margin-left: 90px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    
+ }
+ 
+
+ .aboutparafac .para1{
+    margin-left: 220px;
+    margin-top: -10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+
+ }
+
+ .aboutparafac .para2{
+    margin-left: 460px;
+    margin-top: -31px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+
+ }
+
+ .aboutparafac .para3{
+    margin-left: 720px;
+    margin-top: -31px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+
+ }
+
+ .aboutparafac .para4{
+    margin-left: 960px;
+    margin-top: -31px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+
+ }
+ 
+
+  /* button section work start  */
+
+
+.aboutbuttonfac .button1{
+    margin-left: 270px;
+    margin-top: 10px;
+    padding: 4px 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: rgb(110, 98, 98);
+    font-weight: 900;
+    
+}
+
+.aboutbuttonfac .button1:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(110, 98, 98);
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.aboutbuttonfac .button2{
+    margin-left: 130px;
+    margin-top: 10px;
+    padding: 4px 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    border-color: rgb(110, 98, 98);
+    font-weight: 900;
+}
+
+.aboutbuttonfac .button2:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(110, 98, 98);
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+
+.aboutbuttonfac .button3{
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 4px 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    border-color: rgb(110, 98, 98);
+    font-weight: 900;
+    
+}
+
+.aboutbuttonfac .button3:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(110, 98, 98);
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+
+.aboutbuttonfac .button4{
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 4px 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    border-color: rgb(110, 98, 98);
+    font-weight: 900;
+}
+
+.aboutbuttonfac .button4:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(110, 98, 98);
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+
+                          /* our facility end at that point  */
+
+                          /* menu work start from here  */
+
+#menu img{
+    margin-left: 615px;
+    margin-top: 25px;
+    height: 25px;
+}
+
+
+#menu p{
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+
+.menuallimgour{
+ display: flex;
+ margin-left:200px;
+ 
+ margin-top: 12px;
+}
+
+.menuallimgour .img1 {
+ border: 4px solid rgb(255, 255, 255);
+ width: 310px;
+ height: 350px;
+ background-color: rgb(255, 242, 224);
+ background-position: center center;
+
+}
+
+.menuallimgour .img1  img{
+     height:160px;
+     margin-left: 20px;
+     margin: 50px 50px;
+     margin-top: 50px;
+     margin-left: 75px;
+}
+
+.menuallimgour .img1:hover{
+    
+    background-color: rgb(255, 228, 184);
+  
+   }
+
+.menuallimgour .img2 {
+    border: 4px solid rgb(255, 255, 255);
+    width: 310px;
+    height: 350px;
+    background-color: rgb(228, 228, 228);
+    background-position: center center;
+   
+   }
+
+   .menuallimgour .img2:hover{
+    
+    background-color: rgb(197, 197, 197);
+  
+   }
+   
+   .menuallimgour .img2  img{
+        height:160px;
+        margin: 50px 50px;
+        margin-top: 50px;
+        margin-left: 75px;
+       
+       
+   }
+
+   .menuallimgour .img3 {
+    border: 4px solid rgb(255, 255, 255);
+    width: 310px;
+    height: 350px;
+    background-color: rgb(255, 242, 224);
+    background-position: center center;
+   
+   }
+
+   .menuallimgour .img3:hover{
+    background-color: rgb(255, 231, 184);
+  
+   }
+   
+   .menuallimgour .img3  img{
+        height:160px;
+        margin: 50px 50px;
+        margin-top: 50px;
+        margin-left: 75px;
+       
+   }
+
+
+   .menuallfontsour .buttona button{
+       margin-left: -800px;
+       margin-top: 250px;
+       font-family: 'Roboto Mono', monospace;
+       font-weight: 800;
+       
+   }
+
+
+   .menuallfontsour .buttonb button{
+    margin-left:640px;
+    margin-top: -200px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    
+}
+
+
+
+.menuallfontsour .buttonc button{
+   margin-top: -300px;
+    
+}
+
+
+
+                   /* second utlites */
+
+
+.menuallimgour1{
+ display: flex;
+ margin-left:200px;
+ 
+ margin-top: 12px;
+}
+
+.menuallimgour1 .imga{
+ border: 4px solid rgb(255, 255, 255);
+ width: 310px;
+ height: 350px;
+ background-color: rgb(255, 242, 224);
+ background-position: center center;
+
+}
+
+.menuallimgour1 .imga  img{
+    height:160px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+    /* margin: 50px 50px; */
+    
+}
+
+.menuallimgour1 .imga:hover{
+    
+    background-color: rgb(255, 228, 184);
+  
+   }
+
+
+   /* img 2 */
+.menuallimgour1 .imgb{
+    border: 4px solid rgb(255, 255, 255);
+    width: 310px;
+    height: 350px;
+    background-color: rgb(228, 228, 228);
+    background-position: center center;
+   
+   }
+
+   .menuallimgour1 .imgb:hover{
+    
+    background-color: rgb(197, 197, 197);
+  
+   }
+   
+   .menuallimgour1 .imgb  img{
+          height:160px;
+          margin-top: 50px;
+          margin-left: 70px;
+           /* margin: 50px 50px; */
+       
+   }
+
+   /* img 3 */
+
+   .menuallimgour1 .imgc {
+    border: 4px solid rgb(255, 255, 255);
+    width: 310px;
+    height: 350px;
+    background-color: rgb(255, 242, 224);
+    background-position: center center;
+   
+   }
+
+   .menuallimgour1 .imgc:hover{
+    
+    background-color: rgb(255, 231, 184);
+  
+   }
+   
+   .menuallimgour1 .imgc  img{
+    height:160px;
+    margin-left: 70px;
+    margin-top: 50px;
+   }
+
+   /* paragraph styling */
+
+
+.menuallpara{
+
+}
+
+
+.menuallpara .parag1{
+    margin-left: -900px;
+    justify-content: center;
+    margin-top: 220px;
+    font-size: 0.8rem;
+    font-family: 'Merienda One', cursive;
+}
+
+
+.menuallpara .parag2 p{
+    margin-left: -590px;
+    justify-content: center;
+    margin-top: -35px;
+    font-family: 'Merienda One', cursive;
+    font-size: 0.8rem;
+    
+
+}
+
+
+
+.menuallpara .parag3 p{
+    margin-left: -280px;
+    justify-content: center;
+    margin-top: -35px;
+    font-family: 'Merienda One', cursive;
+    font-size: 0.8rem;
+}
+
+
+
+
+/* button styling start form here  */
+
+.buttonofmenu  .buttonofmenu1{
+    margin-left: -825px;
+    margin-top: 270px;
+}
+
+.buttonofmenu  .buttonofmenu1 button{
+    padding: 5px 20px ;
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.buttonofmenu  .buttonofmenu1 button:hover{
+    background-color: #ffffff;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+
+                      /* second button of menu work start from here */
+
+
+
+.buttonofmenu  .buttonofmenu2{
+    margin-left: -510px;
+    margin-top: -30px;
+}
+
+.buttonofmenu  .buttonofmenu2 button{
+    padding: 5px 20px ;
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.buttonofmenu  .buttonofmenu2 button:hover{
+    background-color: #ffffff;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+                 /* third menu button section you say work start  */
+
+
+
+.buttonofmenu  .buttonofmenu3{
+    margin-left: -200px;
+    margin-top: -30px;
+}
+
+.buttonofmenu  .buttonofmenu3 button{
+    padding: 5px 20px ;
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.buttonofmenu  .buttonofmenu3 button:hover{
+    background-color: #ffffff;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+  /* second img of menu section start from here including button and paragraph */
+
+
+
+  .menuallpara1 .paraga p{
+    margin-left: -900px;
+    justify-content: center;
+    margin-top: 220px;
+    font-size: 0.8rem;
+    font-family: 'Merienda One', cursive;
+}
+
+
+.menuallpara1 .paragb p{
+    margin-left: -590px;
+    justify-content: center;
+    margin-top: -35px;
+    font-family: 'Merienda One', cursive;
+    font-size: 0.8rem;
+    
+
+}
+
+
+
+.menuallpara1 .paragc p{
+    margin-left: -280px;
+    justify-content: center;
+    margin-top: -35px;
+    font-family: 'Merienda One', cursive;
+    font-size: 0.8rem;
+}
+
+
+
+
+/* menu section end from here */
+
+#ourteam img{
+    margin-left: 615px;
+    margin-top: 25px;
+    height: 25px;
+}
+
+
+#ourteam p{
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+
+
+.ourteam1ofall{
+    display: flex;
+}
+
+
+.ourteam1ofall .imgofteam1 {
+   margin-left: 200px;
+   
+   }
+   
+   .ourteam1ofall  img{
+     height: 320px;
+     width: 300px;
+     margin: 10px 5px;
+     
+   }
+
+   /* second  */
+   
+
+   .ourteam1ofall .imgofteam2 {
+    
+    
+    }
+    
+    .ourteam1ofall .imgofteam2  img{
+      height: 320px;
+      width: 300px;
+      margin: 10px 5px;
+      
+    }
+
+
+  
+
+
+.fontofourteam1{
+    display: flex;
+}
+    
+.fontofourteam1 .paraoffontofourteam1{
+     margin-left: 320px;
+     font-weight: 500;
+     font-size: 1rem;
+     font-family: 'Merienda One', cursive;
+
+}
+
+/* second */
+
+.fontofourteam1 .paraoffontofourteam2{
+    margin-left: 245px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Merienda One', cursive;
+
+}
+
+
+.fontofourteam1 .paraoffontofourteam3{
+    margin-left: 250px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Merienda One', cursive;
+
+}
+  
+     /* second utlities of our team //////////////////////////////////////////////// */
+
+
+
+
+     .ourteam1ofall1{
+        display: flex;
+    }
+    
+    
+    .ourteam1ofall1 .imgofteama {
+       margin-left: 200px;
+       
+       }
+       
+       .ourteam1ofall1  img{
+         height: 320px;
+         width: 300px;
+         margin: 10px 5px;
+         
+       }
+
+     
+      
+       /* second  */
+       
+    
+       .ourteam1ofall1 .imgofteamb {
+        
+        
+        }
+        
+        .ourteam1ofall1 .imgofteamb  img{
+          height: 320px;
+          width: 300px;
+          margin: 10px 5px;
+          
+        }
+    
+    
+      
+    
+    
+    .fontofourteam2{
+        display: flex;
+    }
+        
+    .fontofourteam2 .paraoffontofourteama{
+         margin-left: 320px;
+         font-weight: 500;
+         font-size: 1rem;
+         font-family: 'Merienda One', cursive;
+    
+    }
+    
+    /* second */
+    
+    .fontofourteam2 .paraoffontofourteamb{
+        margin-left: 250px;
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: 'Merienda One', cursive;
+    
+    }
+    
+    
+    .fontofourteam2 .paraoffontofourteamc{
+        margin-left: 240px;
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: 'Merienda One', cursive;
+    
+    }
+
+
+
+    /* last section name contact us  */
+
+    #Contactus img{
+        margin-left: 615px;
+        margin-top: 25px;
+        height: 25px;
+    }
+    
+    
+    #Contactus p{
+        font-size: 2.2rem;
+        font-weight: 800;
+        text-align: center;
+        font-family: 'Merienda One', cursive;
+    }
+
+
+    /* now inside contact work start from here  */
+
+.contactfromworktextinside{
+    /* background-color: rgb(254, 237, 204); */
+    opacity: 1;
+    height: 400px;
+    width: 530px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top:-530px;
+    border-radius: 20px;
+   
+    
+}
+
+.contactfromworktextinside:hover
+{
+    background-color: rgb(184, 162, 137);
+    border-bottom-right-radius: 90px;
+}
+
+   
+
+
+
+  .form1  input{
+    height: 40px;
+    width: 420px;
+    border-color: rgb(194, 194, 194);
+    background-color: #ffffff;
+   
+
+  }
+
+  .form1  #input1{
+    margin-top: 45px;
+    color: black;
+    font-weight: 900;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Merienda One', cursive;
+  }
+
+  .form1  #input2{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 20px;
+    font-family: 'Merienda One', cursive;
+    font-weight:900;
+  }
+
+  .form1  #input3{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 20px; 
+    border-color: white;
+    font-weight: 900; 
+    font-family: 'Merienda One', cursive;
+  }
+
+  .form1  #input4{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 900;
+    height: 130px;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-family: 'Merienda One', cursive;
+    border-radius: 20px;
+  }
+
+  .imgofcontact img{
+     height: 600px;
+  }
+
+
+  .buttonofform button{
+    padding: 4px 12px;
+    font-family: 'Merienda One', cursive;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+
+  }
+    
+
+  .buttonofform button:hover{
+      color: rgb(0, 0, 0);
+      border-bottom-right-radius: 40px;
+      transition:all;
+
+  }
+    
+
+  .footer .footerp1{
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgb(184, 162, 137);
+    color: rgb(0, 0, 0);
+    height: 100px;
+    padding-top: 30px;
+    font-size: 0.9rem;
+    font-family: 'Merienda One', cursive;
+    font-weight: 800;
+  }
+
+
+
+  .footer .footer2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-family: 'Merienda One', cursive;
+    margin-top: -40px;
+    font-weight: 800;
+
+  }
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+      
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+  
